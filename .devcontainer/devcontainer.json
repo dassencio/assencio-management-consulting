@@ -1,0 +1,15 @@
+{
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "hollowtree.vue-snippets",
+    "huizhou.githd",
+    "johnsoncodehk.volar"
+  ],
+  "settings": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true
+  }
+}
