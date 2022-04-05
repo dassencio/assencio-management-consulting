@@ -1,0 +1,29 @@
+@use "sass:math";
+
+// Strip unit from input value and convert it to a number (e.g. "10px" --> 10).
+@function stripUnit($value) {
+  @return math.div($value, ($value * 0 + 1));
+}
+
+// Convert input values in px to rem (e.g. "32px" --> 2rem).
+@function rem($pxValue) {
+  @return math.div(stripUnit($pxValue), 16) * 1rem;
+}
+
+// General styling.
+$active-link-color: royalblue;
+$max-page-width: rem(1000px);
+$normal-link-color: darkblue;
+$primary-line-color: silver;
+$primary-line-width: rem(1px);
+
+// Styling for nav bar in desktop mode.
+$desktop-nav-bar-height: rem(110px);
+$desktop-width-mode: rem(720px);
+
+// Styling for nav bar in mobile mode.
+$mobile-nav-bar-height: rem(80px);
+
+// Styling for nav bar in desktop and mobile modes.
+$nav-bar-background-color-transition: background-color 0.4s ease;
+$nav-bar-hover-background-color: rgba(164, 209, 254, 0.6);
