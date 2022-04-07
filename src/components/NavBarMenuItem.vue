@@ -8,11 +8,10 @@
 import { useStore } from "vuex";
 import type { RouteRecordRaw } from "vue-router";
 
-const store = useStore();
-
 const props = defineProps<{
   route: RouteRecordRaw;
 }>();
+const store = useStore();
 
 function onItemClick() {
   store.dispatch("collapseMobileNavBarMenu");
