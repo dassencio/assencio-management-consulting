@@ -35,7 +35,6 @@ const store = useStore();
     display: none;
     height: $desktop-nav-bar-height;
     @media (min-width: $desktop-width-mode) {
-      align-items: center;
       display: flex;
       justify-content: space-between;
       margin: auto;
