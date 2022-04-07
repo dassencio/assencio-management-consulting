@@ -12,18 +12,14 @@
 
 // General styling.
 $active-link-color: royalblue;
+$desktop-width-mode: rem(720px);
 $max-page-width: rem(1000px);
 $normal-link-color: darkblue;
 $primary-line-color: silver;
 $primary-line-width: rem(1px);
 
-// Styling for nav bar in desktop mode.
+// Styling for navigation bar.
 $desktop-nav-bar-height: rem(110px);
-$desktop-width-mode: rem(720px);
-
-// Styling for nav bar in mobile mode.
 $mobile-nav-bar-height: rem(80px);
-
-// Styling for nav bar in desktop and mobile modes.
 $nav-bar-background-color-transition: background-color 0.4s ease;
 $nav-bar-hover-background-color: rgba(164, 209, 254, 0.6);
