@@ -30,7 +30,7 @@ $half-inner-size: 0.5 * $inner-size;
 $inner-padding-y: 0.63 * $half-inner-size;
 $line-height: 2 * $primary-line-width;
 $half-line-height: 0.5 * $line-height;
-$line-width: 0.55 * $outer-size;
+$line-width: 0.57 * $inner-size;
 $line-border-radius: $half-line-height;
 $margin-right: 0.5 * ($mobile-nav-bar-height - $outer-size);
 $line-translation: $half-inner-size - $inner-padding-y - $half-line-height;
