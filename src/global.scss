@@ -11,15 +11,15 @@
 }
 
 // General styling.
-$active-link-color: royalblue;
 $desktop-width-mode: rem(720px);
 $max-page-width: rem(1000px);
-$normal-link-color: darkblue;
-$primary-line-color: silver;
-$primary-line-width: rem(1px);
 
 // Styling for navigation bar.
-$desktop-nav-bar-height: rem(110px);
-$mobile-nav-bar-height: rem(80px);
-$nav-bar-background-color-transition: background-color 0.4s ease;
-$nav-bar-hover-background-color: rgba(164, 209, 254, 0.6);
+$nav-bar-height-desktop: rem(110px);
+$nav-bar-height-mobile: rem(80px);
+$nav-bar-line-color: silver;
+$nav-bar-line-width: rem(1px);
+$nav-bar-link-background-color-hover: rgba(164, 209, 254, 0.6);
+$nav-bar-link-background-color-transition: background-color 0.4s ease;
+$nav-bar-link-color-active: royalblue;
+$nav-bar-link-color-normal: darkblue;

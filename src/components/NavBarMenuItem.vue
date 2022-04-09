@@ -20,27 +20,27 @@ function onItemClick() {
 
 <style scoped lang="scss">
 .item {
-  color: $normal-link-color;
+  color: $nav-bar-link-color-normal;
   &.router-link-active {
-    color: $active-link-color;
+    color: $nav-bar-link-color-active;
   }
   &__text {
     display: flex;
     flex-direction: column;
-    height: 0.75 * $mobile-nav-bar-height;
+    height: 0.75 * $nav-bar-height-mobile;
     justify-content: space-around;
-    padding-left: 0.25 * $mobile-nav-bar-height;
-    transition: $nav-bar-background-color-transition;
+    padding-left: 0.25 * $nav-bar-height-mobile;
+    transition: $nav-bar-link-background-color-transition;
     &:active,
     &:hover {
-      background-color: $nav-bar-hover-background-color;
+      background-color: $nav-bar-link-background-color-hover;
     }
     @media (min-width: $desktop-width-mode) {
       align-items: center;
       flex-direction: row;
       height: 100%;
       padding: 0;
-      width: 1.2 * $desktop-nav-bar-height;
+      width: 1.2 * $nav-bar-height-desktop;
     }
   }
 }

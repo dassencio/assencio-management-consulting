@@ -1,18 +1,18 @@
 <template>
   <header class="nav-bar-wrapper">
-    <nav class="desktop-nav-bar">
+    <nav class="nav-bar-desktop">
       <NavBarLogo />
       <NavBarMenu />
     </nav>
-    <nav class="mobile-nav-bar">
-      <NavBarLogo class="mobile-nav-bar__logo" />
-      <NavBarMenuIcon class="mobile-nav-bar__menu-icon" />
+    <nav class="nav-bar-mobile">
+      <NavBarLogo class="nav-bar-mobile__logo" />
+      <NavBarMenuIcon class="nav-bar-mobile__menu-icon" />
       <CollapseTransition
         v-show="store.getters.isMobileNavBarMenuExpanded"
         :duration="300"
         easing="ease-out"
       >
-        <NavBarMenu class="mobile-nav-bar__menu" />
+        <NavBarMenu class="nav-bar-mobile__menu" />
       </CollapseTransition>
     </nav>
   </header>
@@ -30,10 +30,10 @@ const store = useStore();
 
 <style scoped lang="scss">
 .nav-bar-wrapper {
-  border-bottom: $primary-line-width solid $primary-line-color;
-  .desktop-nav-bar {
+  border-bottom: $nav-bar-line-width solid $nav-bar-line-color;
+  .nav-bar-desktop {
     display: none;
-    height: $desktop-nav-bar-height;
+    height: $nav-bar-height-desktop;
     @media (min-width: $desktop-width-mode) {
       display: flex;
       justify-content: space-between;
@@ -41,7 +41,7 @@ const store = useStore();
       max-width: $max-page-width;
     }
   }
-  .mobile-nav-bar {
+  .nav-bar-mobile {
     align-items: center;
     display: grid;
     grid-template-areas:

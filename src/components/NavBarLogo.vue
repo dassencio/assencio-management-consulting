@@ -19,16 +19,16 @@ function onLogoClick() {
   display: flex;
 }
 .logo__img {
-  height: $mobile-nav-bar-height;
-  padding: 0.1 * $mobile-nav-bar-height;
-  transition: $nav-bar-background-color-transition;
+  height: $nav-bar-height-mobile;
+  padding: 0.1 * $nav-bar-height-mobile;
+  transition: $nav-bar-link-background-color-transition;
   &:active,
   &:hover {
-    background-color: $nav-bar-hover-background-color;
+    background-color: $nav-bar-link-background-color-hover;
   }
   @media (min-width: $desktop-width-mode) {
-    height: $desktop-nav-bar-height;
-    padding: 0.1 * $desktop-nav-bar-height 0.12 * $desktop-nav-bar-height;
+    height: $nav-bar-height-desktop;
+    padding: 0.1 * $nav-bar-height-desktop 0.12 * $nav-bar-height-desktop;
   }
 }
 </style>
