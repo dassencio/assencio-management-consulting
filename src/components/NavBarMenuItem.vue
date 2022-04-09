@@ -27,6 +27,7 @@ function onItemClick() {
   &__text {
     display: flex;
     flex-direction: column;
+    font-size: 1.125rem;
     height: 0.75 * $nav-bar-height-mobile;
     justify-content: space-around;
     padding-left: 0.25 * $nav-bar-height-mobile;
