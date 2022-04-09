@@ -38,7 +38,7 @@ const store = useStore();
       display: flex;
       justify-content: space-between;
       margin: auto;
-      max-width: $max-page-width;
+      max-width: 1.1 * $desktop-width-mode;
     }
   }
   .nav-bar-mobile {
