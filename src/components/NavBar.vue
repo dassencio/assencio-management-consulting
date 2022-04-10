@@ -30,6 +30,7 @@ const store = useStore();
 
 <style scoped lang="scss">
 .nav-bar-wrapper {
+  background: rgba($nav-bar-line-color, 0.15);
   border-bottom: $nav-bar-line-width solid $nav-bar-line-color;
   .nav-bar-desktop {
     display: none;
