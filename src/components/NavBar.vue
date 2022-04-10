@@ -52,6 +52,7 @@ const store = useStore();
     }
     &__logo {
       grid-area: logo;
+      justify-self: start;
     }
     &__menu-icon {
       grid-area: menu-icon;
