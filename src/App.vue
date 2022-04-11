@@ -12,7 +12,9 @@ import NavBar from "@/components/NavBar.vue";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
 html {
+  background-color: white;
   font-family: "Open Sans", sans-serif;
+  height: 100%;
 }
 a {
   text-decoration: none;
