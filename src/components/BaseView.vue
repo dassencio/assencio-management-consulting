@@ -36,7 +36,6 @@ $base-length: $view-paragraph-font-size;
     margin: $base-length 0;
     text-align: left;
     @media (min-width: $desktop-width-mode) {
-      margin: $base-length 0;
       text-align: justify;
     }
   }
