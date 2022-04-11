@@ -8,10 +8,16 @@
 $base-length: $view-paragraph-font-size;
 .view {
   margin: 0 auto;
-  max-width: $desktop-width-mode;
-  padding: (0.25 * $base-length) $base-length;
+  padding: (0.5 * $base-length) 0;
+  width: min(0.85 * $desktop-width-mode, 100% - 2 * $base-length);
   @media (min-width: $desktop-width-mode) {
-    padding: $base-length (2 * $base-length);
+    width: 0.9 * $desktop-width-mode;
+  }
+  :deep(section) {
+    margin: (1.5 * $base-length) 0;
+    @media (min-width: $desktop-width-mode) {
+      margin: (2.5 * $base-length) 0;
+    }
   }
   :deep(.slogan) {
     color: $view-title-color;
@@ -23,7 +29,6 @@ $base-length: $view-paragraph-font-size;
   :deep(.title) {
     color: $view-title-color;
     font-size: 1.5 * $base-length;
-    margin: (2 * $base-length) 0 $base-length 0;
   }
   :deep(p) {
     color: $view-text-color-normal;
