@@ -19,16 +19,15 @@ $base-length: $view-paragraph-font-size;
       margin: (2.5 * $base-length) 0;
     }
   }
-  :deep(.slogan) {
-    color: $view-title-color;
-    font-size: 2 * $base-length;
-    margin: (2 * $base-length) auto;
-    max-width: 0.7 * $desktop-width-mode;
-    text-align: center;
-  }
-  :deep(.title) {
+  :deep(h1) {
     color: $view-title-color;
     font-size: 1.5 * $base-length;
+    &.slogan {
+      font-size: 2 * $base-length;
+      margin: (2 * $base-length) auto;
+      max-width: 0.7 * $desktop-width-mode;
+      text-align: center;
+    }
   }
   :deep(p) {
     color: $view-text-color-normal;

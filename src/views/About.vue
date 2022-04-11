@@ -1,7 +1,7 @@
 <template>
   <BaseView>
     <section>
-      <h1 class="title">ASSÊNCIO Management Consulting</h1>
+      <h1>ASSÊNCIO Management Consulting</h1>
       <p>
         <RouterLink to="/">ASSÊNCIO</RouterLink> é uma empresa de consultoria em
         gestão de negócios empresariais que se propõe a aprimorar processos
@@ -18,7 +18,7 @@
       </p>
     </section>
     <section>
-      <h1 class="title">Eduardo Assêncio</h1>
+      <h1>Eduardo Assêncio</h1>
       <p>
         <a href="https://www.linkedin.com/in/eduardo-assencio-msc-4b5464/"
           >Eduardo</a
