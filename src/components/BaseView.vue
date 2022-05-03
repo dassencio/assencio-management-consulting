@@ -21,6 +21,12 @@ $base-length: $view-paragraph-font-size;
       margin: (2.5 * $base-length) 0;
     }
   }
+  :deep(article) {
+    margin: (1.2 * $base-length) 0;
+    @media (min-width: $desktop-width-mode) {
+      margin: (2 * $base-length) 0;
+    }
+  }
   :deep(h1) {
     color: $view-title-color;
     font-size: 1.5 * $base-length;
@@ -30,6 +36,10 @@ $base-length: $view-paragraph-font-size;
       max-width: 0.7 * $desktop-width-mode;
       text-align: center;
     }
+  }
+  :deep(h2) {
+    color: $view-title-color;
+    font-size: 1.15 * $base-length;
   }
   :deep(p) {
     margin: $base-length 0;
