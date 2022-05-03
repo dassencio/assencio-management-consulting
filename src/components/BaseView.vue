@@ -7,6 +7,8 @@
 <style scoped lang="scss">
 $base-length: $view-paragraph-font-size;
 .view {
+  color: $view-text-color-normal;
+  font-size: $base-length;
   margin: 0 auto;
   padding: (0.5 * $base-length) 0;
   width: min(0.85 * $desktop-width-mode, 100% - 2 * $base-length);
@@ -30,8 +32,6 @@ $base-length: $view-paragraph-font-size;
     }
   }
   :deep(p) {
-    color: $view-text-color-normal;
-    font-size: $base-length;
     margin: $base-length 0;
     text-align: left;
     @media (min-width: $desktop-width-mode) {
