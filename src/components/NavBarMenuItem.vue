@@ -31,10 +31,10 @@ function onItemClick() {
     height: 0.75 * $nav-bar-height-mobile;
     justify-content: space-around;
     padding-left: 0.25 * $nav-bar-height-mobile;
-    transition: $nav-bar-link-background-color-transition;
+    transition: $big-link-background-color-transition;
     &:active,
     &:hover {
-      background-color: $nav-bar-link-background-color-hover;
+      background-color: $big-link-background-color-hover;
     }
     @media (min-width: $desktop-width-mode) {
       align-items: center;

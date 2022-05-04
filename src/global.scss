@@ -11,6 +11,8 @@
 }
 
 // General styling.
+$big-link-background-color-hover: rgba(164, 209, 254, 0.6);
+$big-link-background-color-transition: background-color 0.4s ease;
 $desktop-width-mode: rem(720px);
 
 // Styling for navigation bar.
@@ -18,8 +20,6 @@ $nav-bar-height-desktop: rem(100px);
 $nav-bar-height-mobile: rem(80px);
 $nav-bar-line-color: silver;
 $nav-bar-line-width: rem(1px);
-$nav-bar-link-background-color-hover: rgba(164, 209, 254, 0.6);
-$nav-bar-link-background-color-transition: background-color 0.4s ease;
 $nav-bar-link-color-active: royalblue;
 $nav-bar-link-color-normal: darkblue;
 $nav-bar-link-font-size: rem(18px);

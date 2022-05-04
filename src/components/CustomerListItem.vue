@@ -21,10 +21,10 @@ $base-length: $view-paragraph-font-size;
   display: flex;
   height: 100%;
   padding: $base-length;
-  transition: $nav-bar-link-background-color-transition;
+  transition: $big-link-background-color-transition;
   &:active,
   &:hover {
-    background-color: $nav-bar-link-background-color-hover;
+    background-color: $big-link-background-color-hover;
   }
   &__logo {
     height: auto;
