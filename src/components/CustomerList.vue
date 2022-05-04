@@ -41,7 +41,7 @@
       url="https://moinhohortolandia.com.br"
     />
     <CustomerListItem
-      :image="logoMoinhoIguacuMirim"
+      :image="logoMoinhoGuacuMirim"
       name="Moinho Guaçu Mirim"
       url="http://moinhoguacumirim.com.br"
     />
@@ -91,7 +91,7 @@ import logoIntermedica from "@/assets/intermédica.png";
 import logoInterodonto from "@/assets/interodonto.png";
 import logoMassaLeve from "@/assets/massa-leve.png";
 import logoMoinhoHortolandia from "@/assets/moinho-hortolândia.png";
-import logoMoinhoIguacuMirim from "@/assets/moinho-guaçu-mirim.png";
+import logoMoinhoGuacuMirim from "@/assets/moinho-guaçu-mirim.png";
 import logoMoinhoPaulista from "@/assets/moinho-paulista.png";
 import logoNoroaco from "@/assets/noroaço.png";
 import logoSeara from "@/assets/seara.png";
