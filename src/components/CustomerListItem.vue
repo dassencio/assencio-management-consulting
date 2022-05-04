@@ -23,6 +23,7 @@ $base-length: $view-paragraph-font-size;
   padding: $base-length;
   transition: $big-link-background-color-transition;
   &:active,
+  &:focus,
   &:hover {
     background-color: $big-link-background-color-hover;
   }

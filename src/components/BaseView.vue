@@ -51,6 +51,7 @@ $base-length: $view-paragraph-font-size;
   :deep(a) {
     color: $view-link-color-normal;
     &:active,
+    &:focus,
     &:hover {
       text-decoration: underline;
     }

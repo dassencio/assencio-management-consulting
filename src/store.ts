@@ -22,12 +22,14 @@ const store = createStore<State>({
   },
   actions: {
     toggleMobileNavBarMenu(context) {
+      (document.activeElement as HTMLElement).blur();
       context.commit(
         "setIsMobileNavBarMenuExpanded",
         !context.getters.isMobileNavBarMenuExpanded
       );
     },
     collapseMobileNavBarMenu(context) {
+      (document.activeElement as HTMLElement).blur();
       context.commit("setIsMobileNavBarMenuExpanded", false);
     },
   },

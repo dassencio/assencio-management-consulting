@@ -48,6 +48,7 @@ $line-translation: $half-inner-size - $inner-padding-y - $half-line-height;
   padding: $inner-padding-y 0;
   width: $outer-size;
   &:active,
+  &:focus,
   &:hover {
     filter: brightness(50%);
   }

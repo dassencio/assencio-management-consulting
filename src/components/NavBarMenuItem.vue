@@ -21,6 +21,12 @@ function onItemClick() {
 <style scoped lang="scss">
 .item {
   color: $nav-bar-link-color-normal;
+  transition: $big-link-background-color-transition;
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: $big-link-background-color-hover;
+  }
   &.router-link-active {
     color: $nav-bar-link-color-active;
   }
@@ -31,11 +37,6 @@ function onItemClick() {
     height: 0.75 * $nav-bar-height-mobile;
     justify-content: space-around;
     padding-left: 0.25 * $nav-bar-height-mobile;
-    transition: $big-link-background-color-transition;
-    &:active,
-    &:hover {
-      background-color: $big-link-background-color-hover;
-    }
     @media (min-width: $desktop-width-mode) {
       align-items: center;
       flex-direction: row;
