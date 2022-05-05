@@ -22,11 +22,6 @@ export const routes = [
     name: "Produtos",
     component: () => import("@/views/Products.vue"),
   },
-  {
-    path: "/contato",
-    name: "Contato",
-    component: () => import("@/views/Contact.vue"),
-  },
 ];
 
 const router = createRouter({

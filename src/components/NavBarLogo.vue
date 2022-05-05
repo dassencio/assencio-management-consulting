@@ -17,7 +17,7 @@ function onLogoClick() {
 <style scoped lang="scss">
 .logo {
   display: flex;
-  transition: $big-link-background-color-transition;
+  transition: $big-link-transition;
   &:active,
   &:focus,
   &:hover {

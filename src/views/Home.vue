@@ -13,12 +13,38 @@
       </p>
       <p>
         Para saber mais sobre como nós podemos auxiliar a sua empresa, entre em
-        <RouterLink to="/contato">contato</RouterLink> conosco.
+        contato conosco:
       </p>
+      <article class="contact-options">
+        <ContactCard
+          :image="linkedInLogo"
+          name="LinkedIn"
+          url="https://www.linkedin.com/in/eduardo-assencio-msc-4b5464"
+        />
+        <ContactCard
+          :image="emailIcon"
+          name="Email"
+          url="mailto:eduardo@assencio.com"
+        />
+      </article>
     </section>
   </BaseView>
 </template>
 
 <script setup lang="ts">
 import BaseView from "@/components/BaseView.vue";
+import ContactCard from "@/components/ContactCard.vue";
+import emailIcon from "@/assets/email.png";
+import linkedInLogo from "@/assets/linkedin.png";
 </script>
+
+<style scoped lang="scss">
+$base-width: $view-paragraph-font-size;
+
+.contact-options {
+  column-gap: $base-width;
+  display: grid;
+  grid-template-areas: "card card";
+  justify-content: center;
+}
+</style>

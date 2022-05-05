@@ -21,7 +21,7 @@ function onItemClick() {
 <style scoped lang="scss">
 .item {
   color: $nav-bar-link-color-normal;
-  transition: $big-link-background-color-transition;
+  transition: $big-link-transition;
   &:active,
   &:focus,
   &:hover {

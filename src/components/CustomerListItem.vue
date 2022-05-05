@@ -21,7 +21,7 @@ $base-length: $view-paragraph-font-size;
   display: flex;
   height: 100%;
   padding: $base-length;
-  transition: $big-link-background-color-transition;
+  transition: $big-link-transition;
   &:active,
   &:focus,
   &:hover {
