@@ -8,6 +8,11 @@ export const routes = [
     component: Home,
   },
   {
+    path: "/produtos",
+    name: "Produtos",
+    component: () => import("@/views/Products.vue"),
+  },
+  {
     path: "/clientes",
     name: "Clientes",
     component: () => import("@/views/Customers.vue"),
@@ -16,11 +21,6 @@ export const routes = [
     path: "/sobre",
     name: "Sobre",
     component: () => import("@/views/About.vue"),
-  },
-  {
-    path: "/produtos",
-    name: "Produtos",
-    component: () => import("@/views/Products.vue"),
   },
 ];
 
